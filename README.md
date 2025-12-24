@@ -17,7 +17,7 @@ This repository contains SQL analytics projects using public datasets in Google 
   - Paid vs Organic channel comparison
   - Best days of week for revenue and orders
 
-### Project 03: Customer Retention & Repeat Purchase Analysis
+## Project 03: Customer Retention & Repeat Purchase Analysis
 - One time vs repeat customer distribution
 - Revenue share from repeat customers
 - Time between first and second purchase
