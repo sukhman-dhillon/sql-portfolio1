@@ -60,7 +60,6 @@ ORDER BY
 LIMIT 10;
 
 -- Q4: Revenue by category with simple profit estimate
--- Uses products.retail_price and products.cost as a proxy for margin.
 
 SELECT
   p.category,
@@ -79,7 +78,8 @@ GROUP BY
 ORDER BY 
   revenue DESC;
 
--- Q5: Revenue by traffic source (Customer Acquisition Channel Proxy)
+-- Q5: Revenue by traffic source 
+
 SELECT
   u.traffic_source,
   ROUND(SUM(oi.sale_price), 2) AS Revenue,
@@ -99,6 +99,7 @@ ORDER BY
 
 
 -- Q6: Repeat Customer Rate (Simple)
+
 WITH customer_orders AS (
   SELECT
     oi.user_id,
@@ -118,6 +119,7 @@ FROM
   customer_orders;
 
 -- Q7: High Value Order Segmentation
+
 WITH order_totals AS (
   SELECT
     oi.order_id,
