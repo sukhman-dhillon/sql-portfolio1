@@ -1,5 +1,5 @@
 # Project 03: Customer Retention and Purchase Behavior
-https://github.com/sukhman-dhillon/sql-portfolio1/tree/main/customer-retention-analysis
+
 ## Goal
 Analyze customer retention and repeat purchase behavior to understand how often customers return, how valuable repeat customers are, and which segments drive long-term revenue.
 
